@@ -2,7 +2,7 @@ function validate() {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if (username == "teamo" && password == "0112") {
+    if (username == "duda" && password == "0112") {
         window.location = "final.html";
         return false;
     }
@@ -13,5 +13,5 @@ function validate() {
 }
 
 function alerta() {
-    swal("NÃO ACREDITO! 😠", "Como você conseguiu errar isso meu amor?")
+    swal("TE PEGUEI! 🤭", "A senha real é a data do nosso namoro.")
 }
